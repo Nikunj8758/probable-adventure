@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.user_profile,
+.menu_icone{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .nav_content,
+    .login_button{
+        display: none;
+
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .user_profile,
+    .menu_icone{
+        display: block;
+    }
+    .button-2,.button-3{
+        padding:8px 20px  ;
+    }
+
+    .section-1_content h1{
+        font-size: 2.5rem;
+    }
+    .section-1_content p{
+        font-size: 1rem;
+    }
+    .chaild_section_img{
+        width: 300px;
+            
+    }
+    .curve-arrow{
+        display: none;
+    }
+    .green-arrow,
+    .circle{
+        position: absolute;
+        bottom: 9rem;
+    }
+    .circle{
+        right: 0px;
+    }
+    .img-main{
+        width: 200px;
+    }
+    .img-main{
+        position: absolute;
+        top: 0;
+
+    }
+    .foot{
+        margin-top: 15px;
+    }
+    .h123{
+        font-size: 2rem;
+    }
+}
